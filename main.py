@@ -1,10 +1,10 @@
-#Meu IP por Nuno Alves
+#Relogio por Nuno Alves
 import socket
 from tkinter import *
 from tkinter.ttk import *
 from time import strftime
 root = Tk()
-root.title("DICTOF")
+root.title("Relógio")
 
 def time():
     string = strftime('%H:%M:%S')
